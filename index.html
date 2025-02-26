@@ -3,69 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pushkar Sharma Photography</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Pushkar Sharma | Photography Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <div class="container">
-            <h1>Pushkar Sharma Photography</h1>
-            <nav>
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
+            <h1>Pushkar Sharma</h1>
+            <p>Photography Portfolio</p>
         </div>
     </header>
 
-    <section id="about" class="section">
+    <section class="about">
         <div class="container">
             <h2>About Me</h2>
-            <p>Hi, I'm Pushkar Sharma, a passionate photographer capturing moments that tell stories.</p>
+            <p>Hi, I'm Pushkar Sharma, a passionate photographer capturing moments that tell a story. Welcome to my portfolio!</p>
         </div>
     </section>
 
-    <section id="portfolio" class="section">
+    <section class="carousel">
+        <div class="carousel-container">
+            <button class="carousel-btn prev">&#10094;</button>
+            <div class="carousel-track">
+                <img src="img/photo1.jpg" alt="Photo 1">
+                <img src="img/photo2.jpg" alt="Photo 2">
+                <img src="img/photo3.jpg" alt="Photo 3">
+                <img src="img/photo4.jpg" alt="Photo 4">
+                <img src="img/photo5.jpg" alt="Photo 5">
+            </div>
+            <button class="carousel-btn next">&#10095;</button>
+        </div>
+    </section>
+
+    <section class="gallery">
         <div class="container">
-            <h2>Portfolio</h2>
-            <div class="gallery">
-                <img src="Assets/Images/McLeod Ganj.jpg" alt="McLeod Ganj">
-                <img src="Assets/Images/Mountain View.jpg" alt="Mountain View">
-                <img src="Assets/Images/Snowy Track.png" alt="Snowy Track">
+            <h2>Gallery</h2>
+            <div class="gallery-grid">
+                <img src="img/photo1.jpg" alt="Photo 1">
+                <img src="img/photo2.jpg" alt="Photo 2">
+                <img src="img/photo3.jpg" alt="Photo 3">
+                <img src="img/photo4.jpg" alt="Photo 4">
+                <img src="img/photo5.jpg" alt="Photo 5">
             </div>
         </div>
     </section>
 
-    <section id="contact" class="section contact-section">
+    <section class="social-media">
         <div class="container">
-            <h2>Contact Me</h2>
-            <form id="contact-form" class="contact-form">
-                <div class="form-group">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" required>
-                </div>
-
-                <div class="form-group">
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
-                </div>
-
-                <div class="form-group">
-                    <label for="message">Message:</label>
-                    <textarea id="message" name="message" required></textarea>
-                </div>
-
-                <button type="submit" class="submit-btn">Send Message</button>
-            </form>
+            <h2>Connect with Me</h2>
+            <div class="social-links">
+                <a href="https://instagram.com" target="_blank"><img src="img/instagram.png" alt="Instagram"></a>
+                <a href="https://facebook.com" target="_blank"><img src="img/facebook.png" alt="Facebook"></a>
+                <a href="https://wa.me/1234567890" target="_blank"><img src="img/whatsapp.png" alt="WhatsApp"></a>
+            </div>
         </div>
     </section>
 
     <footer>
-        <div class="container">
-            <p>&copy; 2025 Pushkar Sharma. All rights reserved.</p>
-        </div>
+        <p>&copy; 2025 Pushkar Sharma. All rights reserved.</p>
     </footer>
 
     <script src="script.js"></script>
